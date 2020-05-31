@@ -19,10 +19,10 @@ locale                   : "en-US"
 title                    : "Translating A.I."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Diederik Meijerink"
+name                     : &name "Diederik Meijerink" # &name is a YAML anchor which can be *referenced later
 description              : "A site about translating Advanced Analytics, ML and A.I. to business impact"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/rmania.github.io"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : meijerink_d
+  username               : &twitter "meijerink_d"
 facebook:
   username               :
   app_id                 :
@@ -82,6 +82,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/Meijerink_D"
 
 # Analytics
 analytics:
@@ -93,11 +94,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Diederik Meijerink"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "thrilled by the DataSphere"
-  location         : "Amsterdam"
-  email            : "d.meijerink@braxwell.com"
+  name             : *name
+  avatar           : "/_images/bio.jpg"
+  bio              : "Thrilled by the DataSphere"
+  location         : "Amsterdam, NL"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -123,13 +124,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/Meijerink_D"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/rmania"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -279,10 +280,9 @@ defaults:
       comments: # true
       share: true
       related: true
-
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
