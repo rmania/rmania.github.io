@@ -1,7 +1,7 @@
 ---
 title: "Why many A.I. projects will not get adopted"
 date: 2020-05-31
-tags: [data wrangling, data science, messy data]
+tags: [adoption, AI, projects, machine learning, advanced analytics]
 header:
   image: "/images/translating_ai/percept.jpg"
 excerpt: "Artifical intelligence, adoption"
