@@ -2,9 +2,9 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/amsterdam.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+I'm a curious & open-minded advanced analytics professional, inspired by thinking out-of-the-box and working best in fast-moving and collaborative environments. I'm energized by providing actionable and trustworthy intelligence & data products that can can create real impact.
 
-Etc, etc, etc
+More than 5 years of experience in leading data teams. Strong background in empowering multi-disciplinary and teams and talents, setting up structures and establishing processes.
