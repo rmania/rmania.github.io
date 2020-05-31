@@ -95,10 +95,12 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/_images/bio.jpg"
+  avatar           : "https://avatars1.githubusercontent.com/u/8605612?s=460&u=cf017385ae6686b6e81f7599ce4893cff2321518&v=4"
   bio              : "Thrilled by the DataSphere"
   location         : "Amsterdam, NL"
   email            :
+  github           : "rmania"
+  linkedin         : "https://www.linkedin.com/in/diederik-meijerink-1b170627/"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
