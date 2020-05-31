@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Diederik Meijerink"
-  avatar           : "https://avatars1.githubusercontent.com/u/8605612?s=460&u=cf017385ae6686b6e81f7599ce4893cff2321518&v=4"
+  avatar           : "/images/bio.jpg"
   bio              : "Thoughts about creating impact with A.I."
   location         : "Your Location"
   email            :
