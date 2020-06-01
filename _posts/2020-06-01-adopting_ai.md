@@ -3,7 +3,7 @@ title: "Why many A.I. projects will not get adopted"
 date: 2020-05-31
 tags: [adoption, AI, projects, machine learning, advanced analytics]
 header:
-  image: "/images/translating_ai/logos/ai_logo.png"
+  image: "/images/logos/ai_logo.png"
 excerpt: "Artifical intelligence, adoption"
 mathjax: "true"
 ---
@@ -56,7 +56,7 @@ Furthermore I will dive into interesting questions that I perceive as being unde
 ---
 
 footer:
-  image: "/images/translating_ai/logos/ai_logo.png"
+  image: "/images/logos/ai_logo.png"
 
 ---
 
