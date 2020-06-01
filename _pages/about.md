@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/vectors.png"
+  overlay_image: "/images/vectors.png"
 ---
 
 I'm a curious & open-minded advanced analytics professional, inspired by thinking out-of-the-box and working best in 
