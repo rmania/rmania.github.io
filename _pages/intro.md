@@ -1,5 +1,5 @@
 ---
-layout: posts
+title : "Blog intro"
 permalink: /intro/
 header:
   overlay_image: "/images/vectors3.png"
