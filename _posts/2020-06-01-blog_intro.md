@@ -4,7 +4,7 @@ date: 2020-06-01
 tags: [adoption, AI, projects, machine learning, advanced analytics]
 header:
     overlay_image: "/images/vectors3.png"
-excerpt: "Translating A.I. introduction"
+excerpt: "Translating A.I. blog introduction"
 ---
 
 # Translating A.I. introduction

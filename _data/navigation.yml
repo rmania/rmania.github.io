@@ -2,10 +2,12 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Intro"
+    url: /intro/
   - title: "Translating A.I. posts"
     url: /translating_ai/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Machine Learning Models"
+    url: /machine_learning_models/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
