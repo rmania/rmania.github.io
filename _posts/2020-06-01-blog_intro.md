@@ -1,11 +1,10 @@
 ---
-title: "Why many A.I. projects will not get adopted"
-date: 2020-05-31
+permalink: /intro/
+date: 2020-06-01
 tags: [adoption, AI, projects, machine learning, advanced analytics]
 header:
-  image: "/images/logos/ai_logo.png"
-excerpt: "Artifical intelligence, adoption"
-mathjax: "true"
+    overlay_image: "/images/vectors3.png"
+excerpt: "Translating A.I. introduction"
 ---
 
 # Translating A.I. introduction
@@ -51,15 +50,4 @@ So in these series of blog posts I will deep-dive several remedies for the above
 Furthermore I will dive into interesting questions that I perceive as being undervalued or not receiving the attention it should. 
 
 * _how can we really play the monetization card. What are some gotchas when wanting to claim your ML model made actual money. How to prove it?_
-* **explainable A.I.** 
-
----
-
-footer:
-  image: "/images/logos/ai_logo.png"
-
----
-
-
-
-
+* **explainable A.I.**
