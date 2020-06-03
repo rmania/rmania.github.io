@@ -17,8 +17,10 @@ Every day, there are more applications that rely on neural networking techniques
 
 At the heart of an NN is the unit (neuron) taking some kind of input variables, multiplying each one by a parameter (weight), adding the weighted inputs along with some bias value (1 for instance) and feeding it into some activation function. In the image below you can see some activation functions with fancy abbreviations like "relu" (Rectified Linear Unit), "softmax" and "cross-entropy" that have some desirable properties. The generated output of each layer is then "fed" forward to other layers in the network and there can be many (hence Deep Neural Networks or commonly referred to as Deep Learning). Each layer (or hidden layers as the layers between the input and output layers are called) tries to transform the feature values with the goal that the output at the end is the same as the target's value.
 
+
+
 ```markdown
-![neural_network](/home/diederik/projects/rmania.github.io/images/machine_learning_models/neural_network_simple_representation.png){:class="img-responsive" height="700px" width="400px"}
+- ![neural_network](/home/diederik/projects/rmania.github.io/images/machine_learning_models/neural_network_simple_representation.png)
 ```
 
 [^Simple visual representation of a NN]: _Simple visual representation of a neural network
