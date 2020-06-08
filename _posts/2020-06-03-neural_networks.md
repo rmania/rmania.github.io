@@ -17,13 +17,11 @@ Every day, there are more applications that rely on neural networking techniques
 
 At the heart of an NN is the unit (neuron) taking some kind of input variables, multiplying each one by a parameter (weight), adding the weighted inputs along with some bias value (1 for instance) and feeding it into some activation function. In the image below you can see some activation functions with fancy abbreviations like "relu" (Rectified Linear Unit), "softmax" and "cross-entropy" that have some desirable properties. The generated output of each layer is then "fed" forward to other layers in the network and there can be many (hence Deep Neural Networks or commonly referred to as Deep Learning). Each layer (or hidden layers as the layers between the input and output layers are called) tries to transform the feature values with the goal that the output at the end is the same as the target's value.
 
+![image](/home/diederik/projects/rmania.github.io/images/machine_learning_models/neural_network_simple_representation.png)
+
+[^Simple visual representation of a NN]: Simple visual representation of a neural network
 
 
-```markdown
-- ![neural_network](/home/diederik/projects/rmania.github.io/images/machine_learning_models/neural_network_simple_representation.png)
-```
-
-[^Simple visual representation of a NN]: _Simple visual representation of a neural network
 
 Neural nets 'learn' as follows: mostly NN's parameters are initialized as random values from a Gaussian (normal) distribution. Once an input or a set of inputs - called a batch- is "fed" through the NN, the outputted value is compared with the true values using a kind of loss function. This is called _forward propagation_. Next the algorithm goes back through the network in order to identify how much each parameter contributed to the error, a process called _backward propagation_. At each parameter the NN calculates how much each weight should be adjusted in order to improve the output and reduce the error. This process can be repeated multiple times (every time input are fed through is called an _epoch_) thereby iteratively updating the values of the parameters. 
 
